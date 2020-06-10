@@ -157,22 +157,14 @@ a:hover {
   color: #af8834;
 }
 
-/* #particles-js .social-links {
-  margin-top: 30px;
+#particles-js .fa-arrow-down {
+  font-size: 36px;
+  color: #003262;
+  /* margin: 100vh 0 0 0; */
+  position: absolute;
+  top: 95%;
+  /* left: 50%; */
 }
-
-#particles-js .social-links a {
-  font-size: 24px;
-  display: inline-block;
-  color: #45505b;
-  line-height: 1;
-  margin-right: 20px;
-  transition: 0.3s;
-}
-
-#particles-js .social-links a:hover {
-  color: #0563bb;
-} */
 
 /*--------------------------------------------------------------
 # Main
