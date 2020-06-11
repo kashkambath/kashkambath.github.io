@@ -1,0 +1,115 @@
+/* body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+} */
+html, body {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.container-fluid {
+  position: relative;
+  height: 100%;
+}
+
+#particles-js{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  /* background-color: #b68718; */
+  /* background-image: linear-gradient(#d4c919, #b68718); */
+  background-image: linear-gradient(gold, #b68718);
+/* #f7d537 */
+  /* background-size: cover; */
+  /* background-position: : 50% 50%; */
+  /* background-repeat: no-repeat; */
+}
+
+.col {
+  text-align: center;
+  /* display: block; */
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  /* z-index: 1; */
+  background-color: transparent;
+  height: 100%;
+}
+.words {
+  /* width: 600px; */
+  /* height: 230px; */
+  font-size: 30px;
+  background-color: #003262;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+#myname {
+  font-size: 64px;
+  font-weight: 700;
+  color: gold;
+}
+
+/* p {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: gold;
+  margin: 15px 0 0 0;
+  font-size: 50px;
+  font-family: "Karla", sans-serif;
+} */
+
+.typing {
+  /* position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%); */
+  width: 400px;
+  height: 45px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* background-color: #7296ed; */
+  /* background-color: #91affa; */
+  background-color: #bae2ff;
+  /* background-color: rgba(123, 123, 123, 0.4); */
+  border-radius: 10px;
+  /* padding: 5px; */
+}
+
+.typed-hero {
+  /* color: gold; */
+  /* color: #2f69f5; */
+  color: #003262;
+  font-weight: 500;
+}
+
+.typed-cursor {
+  /* color: #2f69f5; */
+  color: #af8834;
+}
+
+/* .container-fluid {
+  background-color: #80f0ff;
+  height: 100vh;
+  /* margin: 0px auto; */
+  /* width: 100%; */
+  /* position: absolute; */
+/* } */
+
+/* .col-sm {
+  /* background-color: green; */
+  /* background-size: cover; */
+/* } */
