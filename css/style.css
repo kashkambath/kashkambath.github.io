@@ -142,14 +142,23 @@ p {
 }
 
 .heading-in-main {
-  /* color: #2f69f5; */
-  /* color: gold; */
+
   color: #f1cf46;
   font-size: 4.5vw;
   font-weight: 500;
   margin-top: 1vh;
 }
 
+@media (max-width: 767.98px) {
+  .heading-in-main {
+    font-size: 5vw;
+    margin-top: 2vh;
+  }
+  #main p {
+    font-size: 2.8vw;
+    margin: 0 10vw 0 10vw;
+  }
+}
 /*--------------------------------------------------------------
 # About Me
 --------------------------------------------------------------*/
@@ -184,14 +193,14 @@ h3 {
 }
 
 #feel-free {
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-style: italic;
   padding: 0;
   margin: 0 0 0 0;
 }
 
 #copyright {
-  font-size: 1.2vw;
+  font-size: 2vw;
 }
 
 .social-links {
@@ -199,7 +208,7 @@ h3 {
 }
 
 .social-links a {
-  font-size: 5vh;
+  font-size: 5vw;
   display: block;
   background: #003262;
   color: #fff;
