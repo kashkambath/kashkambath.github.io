@@ -208,7 +208,7 @@ h3 {
 }
 
 .social-links a {
-  font-size: 5vw;
+  font-size: 3vw;
   display: block;
   background: #003262;
   color: #fff;
@@ -231,15 +231,19 @@ h3 {
   text-decoration: none;
 }
 
+.bxl-github {
+  margin-right: 0.01em;
+}
+
 .bx-mail-send {
   margin-top: 0.02em;
-  margin-right: 0.08em;
+  margin-right: 0.09em;
   margin-bottom: 0;
 }
 
 .bxl-instagram {
   margin-left: 0.005em;
-  margin-bottom: 0.1em;
+  margin-bottom: 0.01em;
 }
 .emailme {
   /* padding: 20px; */
@@ -253,4 +257,15 @@ h3 {
 
 .copyright {
   padding-bottom: 0.5vh;
+}
+
+@media (max-width: 767.98px) {
+  .heading-in-main {
+    font-size: 5vw;
+    margin-top: 2vh;
+  }
+  #main p {
+    font-size: 2.8vw;
+    margin: 0 10vw 0 10vw;
+  }
 }
