@@ -105,7 +105,7 @@ p {
     font-size: 6vw;
   }
   .typing {
-    height: 5vw;
+    height: 3vh;
     font-size: 3.4vw;
   }
 }
@@ -142,7 +142,6 @@ p {
 }
 
 .heading-in-main {
-
   color: #f1cf46;
   font-size: 4.5vw;
   font-weight: 500;
@@ -152,8 +151,13 @@ p {
 @media (max-width: 767.98px) {
   .heading-in-main {
     font-size: 5vw;
-    margin-top: 2vh;
+    margin-top: 4.5em;
   }
+
+  .content {
+    padding-top: 1em;
+  }
+
   #main p {
     font-size: 2.8vw;
     margin: 0 10vw 0 10vw;
@@ -180,10 +184,10 @@ p {
 }
 
 h3 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
-  padding: 2vh 0;
+  padding: 3vh 0 2vh 0;
   margin: 0 0 0 0;
   color: #35373d;
 }
@@ -193,14 +197,14 @@ h3 {
 }
 
 #feel-free {
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-style: italic;
   padding: 0;
   margin: 0 0 0 0;
 }
 
 #copyright {
-  font-size: 2vw;
+  font-size: 1vw;
 }
 
 .social-links {
@@ -260,12 +264,24 @@ h3 {
 }
 
 @media (max-width: 767.98px) {
-  .heading-in-main {
-    font-size: 5vw;
-    margin-top: 2vh;
+  h3 {
+    font-size: 4.5vw;
   }
-  #main p {
-    font-size: 2.8vw;
-    margin: 0 10vw 0 10vw;
+  #feel-free {
+    font-size: 2.9vw;
+  }
+  #copyright {
+    font-size: 2.3vw;
+  }
+  .social-links a {
+    font-size: 5vw;
+  }
+  .bxl-github {
+    margin-right: 0em;
+    margin-left: 0.04em;
+  }
+  .bxl-instagram {
+    margin-left: 0.018em;
+    /* margin-bottom: 0.01em; */
   }
 }
