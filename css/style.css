@@ -110,6 +110,17 @@ p {
   }
 }
 
+@media only screen
+    and (device-width : 375px)
+    and (device-height : 812px)
+    and (-webkit-device-pixel-ratio : 3) {
+
+    .typing {
+      height: 2.6vh;
+      font-size: 3.4vw;
+    }
+}
+
 /*--------------------------------------------------------------
 # About Me
 --------------------------------------------------------------*/
@@ -163,6 +174,18 @@ p {
     margin: 0 10vw 0 10vw;
   }
 }
+
+@media only screen
+    and (device-width : 375px)
+    and (device-height : 812px)
+    and (-webkit-device-pixel-ratio : 3) {
+
+    .heading-in-main {
+      margin-top: 5.7em;
+      font-size: 6vw;
+    }
+}
+
 /*--------------------------------------------------------------
 # About Me
 --------------------------------------------------------------*/
