@@ -1,2 +1,2 @@
 ## Akaash Kambath's personal website
-<a href="https://kashkambath.github.io" target="_blank">kashkambath.github.io</a>
+[kashkambath.github.io](https://kashkambath.github.io)
